@@ -1,0 +1,163 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+body {
+  background: radial-gradient(circle, #01fff7, rgb(93, 207, 252), #0afbe3f7);
+}
+.login {
+  background: linear-gradient(to bottom, rgb(217, 130, 130), rgb(225, 172, 73));
+}
+#id{
+  /* width: 95vw; */
+  height: 75vh;
+  background-image: url('invent-bg.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#admin,#employee{
+  opacity: 0;
+}
+/* form */
+.formdiv{
+  margin: 4rem 6rem;
+}
+.posiitioninput{
+  position: relative;
+  float: left;
+  background-color: transparent !important;
+  color: #fcf9f9 !important;
+}
+.posiitioneye{
+  position: absolute;
+  transform: translate(-3rem);
+}
+.clippath{
+  background-color: rgba(0, 0, 0, 0.373);
+   transform: translateX(-0.5rem);
+   clip-path:polygon(15% 0,100% 0,100% 95%,0 95%);
+   height: auto;
+}
+ .lable {
+  position: relative;
+  transform: translate(14px,39px);
+  transition: transform 1s ease;
+} 
+.radio{
+ transform: scale(2);
+ margin: 1rem;
+}
+/* login image id */
+#provide_email_span {
+  color: #ba531bf4;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.span,.posiitioninput::placeholder {
+  color: white;
+}
+
+.common-button {
+  background: linear-gradient(to right, #03c6fc, #02fbff);
+  /* Additional button styling */
+  color: #ffffff !important;
+}
+
+.bg-onclick:hover,
+.common-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.bg-onclick:hover::after,
+.common-button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0 !important;
+}
+
+.bg-onclick {
+  background-color: #06b47a !important;
+  color: #fcf9f9 !important;
+  border: none;
+}
+
+.passage {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgb(86, 86, 85);
+}
+/* .bgcard{
+  background-color: #02fbff !important;
+} */
+
+/* ////////////////////////// */
+/* .bg-onclick,
+.bg-onclick:link,
+.bg-onclick:visited {
+  background: linear-gradient(to right, #03c6fc, #02fbff);
+
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  display: inline-block;
+  border-radius: 1rem;
+  transition: all .2s;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-onclick:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.bg-onclick:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0 !important;
+}
+
+.bg-onclick:active,
+.bg-onclick:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.bg-onclick--white {
+  background-color: #fff;
+  color: #777;
+}
+
+.bg-onclick--white::after {
+  background-color: #fff;
+}
+
+.bg-onclick::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s !important;
+}
+
+.bg-onclick--animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards !important;
+} */
